@@ -212,6 +212,12 @@ hr {
     min-height: 450px;
 }
 
+.import{
+    margin-left: 65px;
+    margin-top: -15px;
+    min-height: 400px;
+}
+
 .ms {
     margin-top: 10px;
     margin-bottom: 25px;
@@ -402,7 +408,6 @@ ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:fo
     background: #48CFAD;
     color: #fff;
     display: block;
-
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -785,7 +790,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     margin-top: -5px;
 }
 
-.sidebar-toggle-box .fa-caret-square-o-right {
+.sidebar-toggle-box .fa-arrow-right {
     cursor: pointer;
     display: inline-block;
     font-size: 30px;
@@ -1877,7 +1882,6 @@ label {
 	border-radius: 5px;
 }
 
-
 .btn-facebook {
   color: #fff;
   background-color: #5193ea;
@@ -2237,28 +2241,27 @@ hr {
 }
 
 /* CSS untuk ukuran table */
+#colNama {
+    text-align: center;
+}
+
 #colNomer{
-    width: 5%;
     text-align: center;
 }
 
 #colHP{
-    width: 20%;
     text-align: center;
 }
 
 #colPesan{
-    width: 40%;
     text-align: center;
 }
 
 #colTanggal{
-    width: 10%;
     text-align: center;
 }
 
 #colAksi{
-    width: 7%;
     text-align: center;
 }
 
@@ -2266,3 +2269,60 @@ hr {
     text-align: center;
 }
 
+#inputTahun{
+    text-align: center;
+}
+
+#selectKetentuan{
+    text-align: center;
+}
+
+/* CSS halaman Import */
+
+#usrFile{
+    margin-left: 40%;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+#wellUsr{
+    background-color: #E6E9ED;
+    width: 100%;
+    height: 200px;
+    background: url('/BK/asset/img/back2.png')  repeat center center;
+    color: #ffffff;
+}
+
+/* CSS halaman tambah semester */
+
+#formSemester{
+    background: url('/BK/asset/img/back2.png')  repeat center center;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#inputTahunajar{
+    margin-left: -15px;
+}
+
+#inputJenis{
+    margin-left: -15px;
+}
+
+#garisField1{
+    border: 1px solid #37BC9B;
+}
+
+#garisField2{
+    margin: 15px;
+}
+
+/* CSS form edit */
+
+#formEdit{
+    background: url('/BK/asset/img/back2.png')  repeat center center;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
