@@ -5,7 +5,7 @@
       <!--main content start-->
       <section id="main-content">
         <section class="wrapper">
-          
+
           <h3><i class="fa fa-angle-right"></i> Data Siswa</h3>
           <?php
           if(isset($breadcrumb)&& is_array($breadcrumb) && count($breadcrumb) > 0){
@@ -31,7 +31,7 @@
               <?php
             }
             ?>
-            <div class="row mt">
+            <div class="row data">
               <div class="col-lg-12">
                 <div class="content-panel">
 
@@ -54,7 +54,7 @@
                    </div>
                  </div>
                  <section id="unseen">
-                  <table class="footable table-bordered table-striped table-condensed" data-page-size="10">
+                  <table class="footable table-bordered table-striped" data-page-size="10">
                     <thead>
                       <tr>
                         <th>NIS</th>
@@ -66,15 +66,16 @@
                     </thead>
                     <tbody>
                      <?php 
-                     foreach ($data as $tampil) {
-                      echo "<tr>";
-                      echo '<td>'.$tampil['nis'].'</td>';
-                      echo '<td>'.$tampil['nama'].'</td>';
-                      echo '<td>'.$tampil['kelas'].'</td>';
-                      echo '<td>'.$tampil['no_hp'].'</td>';
-                      echo '</tr>';
-                    }
-                    ?>
+                     if ($data != 'kosong') {
+                       foreach ($data as $tampil) {
+                        echo "<tr>";
+                        echo '<td>'.$tampil['nis'].'</td>';
+                        echo '<td>'.$tampil['nama'].'</td>';
+                        echo '<td>'.$tampil['kelas'].'</td>';
+                        echo '<td>'.$tampil['no_hp'].'</td>';
+                        echo '</tr>';
+                      }
+                    }?>
                   </tbody>
                   <tfoot>
                     <tr>

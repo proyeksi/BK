@@ -41,6 +41,8 @@
                     Inbox&nbsp;<span class="badge">42</span></a></li>
                 <li><a href="#messages" data-toggle="tab"><span class="glyphicon glyphicon-comment"></span>
                     Outbox&nbsp;<span class="badge">42</span></a></li>
+                 <li><a href="#sent" data-toggle="tab"><span class="glyphicon glyphicon-send"></span>
+                    Sent Item&nbsp;<span class="badge">42</span></a></li>
                
             </ul>
             <!-- Tab panes -->
@@ -100,8 +102,8 @@
                                   <td id="colIsi">12000.00$ </td>
                                   <td id="colIsi"><span class="label label-info label-mini">Due</span></td>
                                   <td id="colIsi">
-                                      <button class="btn btn-primary btn-xs"><i class="fa fa-reply"></i></button>
-                                      <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
+                                      <button class="btn btn-success btn-xs"><i class="fa fa-reply"></i></button>
+                                      <button class="btn btn-danger btn-xs tooltips" data-placement="top" data-original-title="Hapus" data-toggle="modal" data-target="#modalDelete"><i class="fa fa-trash-o "></i></button>
                                   </td>
                               </tr>
                               </tbody>
@@ -125,6 +127,44 @@
                                   <th class="hidden-phone" id="colHP"><i class="fa fa-mobile fa-2x"></i>&nbsp; No. HP</th>
                                   <th id="colPesan"><i class="fa fa-envelope"></i>&nbsp; Pesan</th>
                                   <th id="colTanggal"><i class="fa fa-calendar"></i>&nbsp; Tanggal</th>
+                                 
+                                  <th id="colAksi"><i class=" fa fa-wrench"></i>&nbsp; Aksi</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                  <td id="colIsi">1</td>
+                                  <td id="colIsi">Lorem Ipsum dolor</td>
+                                  <td id="colIsi">12000.00$ </td>
+                                  <td id="colIsi">12000.00$ </td>
+                                 
+                                  <td id="colIsi">
+                                      <button class="btn btn-danger btn-xs tooltips" data-placement="right" data-original-title="Hapus" data-toggle="modal" data-target="#modalDelete"><i class="fa fa-trash-o "></i></button>
+                                  </td>
+                              </tr>
+                              </tbody>
+                              <tfoot>
+    <tr>
+      <td colspan="6">
+        <div class="pagination pagination-centered hide-if-no-paging"></div>
+      </td>
+    </tr>
+  </tfoot>
+                          </table>
+
+                </div>
+                
+                <div class="tab-pane fade in" id="sent">
+
+                   <table class="footable table-bordered" data-page-size="7">
+                            
+                              <thead>
+                              <tr>
+                                  <th data-type="numeric" id="colNomer"> No</th>
+                                  <th class="hidden-phone" id="colHP"><i class="fa fa-mobile fa-2x"></i>&nbsp; No. HP</th>
+                                  <th id="colTanggal"><i class="fa fa-calendar"></i>&nbsp; Tanggal</th>
+                                  <th id="colPesan"><i class="fa fa-envelope"></i>&nbsp; Pesan</th>
+                                  
                                   <th id="colTanggal"><i class=" fa fa-wifi"></i>&nbsp; Status</th>
                                   <th id="colAksi"><i class=" fa fa-wrench"></i>&nbsp; Aksi</th>
                               </tr>
@@ -151,8 +191,7 @@
                           </table>
 
                 </div>
-                <div class="tab-pane fade in" id="settings">
-                    This tab is empty.</div>
+
             </div>
             
             <div class="row-md-12">

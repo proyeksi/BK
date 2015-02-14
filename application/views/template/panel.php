@@ -23,9 +23,12 @@
                           <span>Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right pull-right" id="panah"></i></span>
                       </a>
                       <ul class="sub">
+                          <li><a  href="<?php echo base_url();?>page/absen">Absensi</a></li>
+                          <li><a  href="<?php echo base_url();?>page/import">Import Data Siswa Baru</a></li>
+                          <li><a  href="<?php echo base_url();?>page/semester">Tambah Semester</a></li>
                           <li><a  href="<?php echo base_url();?>page/data">Data Siswa</a></li>
                           <li><a  href="<?php echo base_url();?>page/rekap">Rekap Data</a></li>
-                          <li><a  href="<?php echo base_url();?>page/edit">Edit Data</a></li>
+                          <li><a  href="<?php echo base_url();?>page/edit">Input Data Siswa</a></li>
                       </ul>
                   </li>
 
@@ -34,7 +37,6 @@
                           <i class="fa fa-envelope"></i>
                           <span>Pesan</span>
                       </a>
-                      
                   </li>
                   
               </ul>

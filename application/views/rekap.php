@@ -9,26 +9,25 @@
             <h3><i class="fa fa-angle-right"></i> Rekap Data</h3>
 
           <?php
-            if(isset($breadcrumb)&& is_array($breadcrumb) && count($breadcrumb) > 0){
-          ?>
+          if(isset($breadcrumb)&& is_array($breadcrumb) && count($breadcrumb) > 0){
+            ?>
             <ul class="breadcrumb" id="crumbData">
-          <?php
-            foreach ($breadcrumb as $key=>$value) {
-            if($value!=''){
-          ?>
-            <li><a href="<?php echo $value; ?>"><?php echo $key; ?></a> <span class="divider"></span></li>
-          <?php }else{?>
-            <li class="active"><?php echo $key; ?></li>
-          <?php }
-          }
-          ?>     
-          </ul>
+              <?php
+              foreach ($breadcrumb as $key=>$value) {
+                if($value!=''){
+                  ?>
+                  <li><a href="<?php echo $value; ?>"><?php echo $key; ?></a> <span class="divider"></span></li>
+                  <?php }else{?>
+                  <li class="active"><?php echo $key; ?></li>
+                  <?php }
+                }
+                ?>     
+              </ul>
+              <?php
+            }
+            ?>
 
-          <?php
-          }
-          ?>  
-
-          <div class="row mt">
+          <div class="row data">
             <div class="col-lg-12">
                       <div class="content-panel">
 
@@ -54,7 +53,7 @@
                         
 
                           <section id="unseen">
-                            <table class="footable table-bordered table-striped table-condensed">
+                            <table class="footable table-bordered table-striped" data-page-size="10">
                               <thead>
                               <tr>
                                   <th>NIS</th>

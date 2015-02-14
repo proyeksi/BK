@@ -27,11 +27,20 @@
     <script type="text/javascript" src="<?= base_url().'asset/js/jquery.gritter.js';?>"></script>
     <script type="text/javascript" src="<?= base_url().'asset/js/gritter-conf.js';?>"></script>
 
+
     <!--script for this page-->
     <script type="text/javascript" src="<?= base_url().'asset/js/footable.js';?>"></script>
     <script type="text/javascript" src="<?= base_url().'asset/js/footable.paginate.js';?>"></script>
-	<script type="text/javascript" src="<?= base_url().'asset/js/footable.sort.js';?>"></script>
+    <script type="text/javascript" src="<?= base_url().'asset/js/footable.sort.js';?>"></script>
     <script type="text/javascript" src="<?= base_url().'asset/js/footable.filter.js';?>"></script>
+
+    <script src="<?= base_url().'asset/js/bootstrap-datepicker.js';?>"></script>
+
+
+    <!-- datepicker -->
+    <script type="text/javascript">
+    $(".input-group.date").datepicker({ autoclose: true, todayHighlight: true });
+    </script>    
 
     <!-- Ini JS buat toggle menu -->
     <script type="text/javascript">
@@ -53,7 +62,7 @@
     $(function () {
         $('.footable').footable();
     });
-    </script> 	
+    </script>   
 
     <!-- Ini buat autocomplete -->
     <script type="text/javascript">
@@ -80,7 +89,7 @@
         $('#modalEdit').on('shown.bs.modal', function () {
         $('#recipient-name').focus()
         })
-    </script>	
+    </script>   
 
     <!-- button scroll top -->
     <script type="text/javascript">
