@@ -65,7 +65,7 @@
            
             <div class="top-menu">
               <ul class="nav pull-right top-menu">
-                   <li><a class="logout tooltips" href="<?php echo base_url();?>login/logout" data-placement="left" data-original-title="Keluar">Logout</a></li>
+                   <li><a class="logout tooltips" href="<?php echo base_url();?>login/logout" data-placement="left" data-original-title="Keluar"><i class="fa fa-sign-out"></i> Logout</a></li>
               </ul>
             </div>
         </header>
