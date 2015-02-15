@@ -2326,3 +2326,12 @@ hr {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+/* CSS form absen */
+#formAbsen{
+    background: url('/BK/asset/img/back2.png')  repeat center center;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
