@@ -3,8 +3,9 @@
 
 		public function index(){
 			$breadcrumb = array(
-            "Beranda" => "page/index",
-            "Pesan" => ""
+            "Beranda" => "index",
+            "Pesan" => "data",         
+            "Kirim Pesan" => ""
         );
         $data['breadcrumb'] = $breadcrumb;
 
