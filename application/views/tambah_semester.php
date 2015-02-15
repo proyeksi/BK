@@ -70,9 +70,9 @@
         </select>
       </div>
     </div>
-            <input type="submit" id="btnUpload" class="btn btn-warning btn-sm" value="Simpan">
+            <button type="submit" id="btnUpload" class="btn btn-warning btn-sm"><i class="fa fa-floppy-o"></i> Simpan</button>
           </fieldset>
-            </fieldset>
+          </fieldset>
           </form>
           <br>
           <section id="unseen">
