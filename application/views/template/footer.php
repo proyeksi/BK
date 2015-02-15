@@ -97,14 +97,14 @@
     
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
-            $('.go-top').fadeIn();
+            $('.go-top').fadeIn('slow');
         } else {
-            $('.go-top').fadeOut();
+            $('.go-top').fadeOut('slow');
         }
     });
     
     $('.go-top').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
+        $('html, body').animate({scrollTop : 0}, 1000);
         return false;
     });
     
