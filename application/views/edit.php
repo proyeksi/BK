@@ -69,10 +69,10 @@
                         </select>
                       </div>
                     <br><br>
-                    <input type="submit" class="btn btn-warning btn-sm" value="Simpan">
+                    <button type="submit" class="btn btn-warning btn-sm"><i class="fa fa-floppy-o"></i> Simpan</button> 
                     </fieldset>
                     </fieldset>
-
+                    
                     <section id="unseen">
                     <table class="footable table-bordered table-striped" data-page-size="10">
                       <thead>
