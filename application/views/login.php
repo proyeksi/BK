@@ -32,7 +32,7 @@
                         <i class="fa fa-lock"></i>
                         <input type="password" name="pass" placeholder="Password" required class="form-control input-lg" />
                     </div>
-                    <button type="submit" class="btn btn-lg btn-block btn-warning"><i class="fa fa-sign-in"></i> Masuk</button>
+                    <button type="submit" class="btn btn-lg btn-block btn-warning"><i class="fa fa-sign-in"></i> Login</button>
                     <div>
                         <p><a href="#">Lupa Password ?</a></p>
                     </div>
