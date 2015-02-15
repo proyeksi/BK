@@ -73,7 +73,7 @@
                       <div class="form-group">
                           <div class="col-lg-5 col-lg-offset-1">
                           <button class="btn btn-danger">Batal</button>
-                          <button type="submit" class="btn btn-success">Kirim</button>
+                          <button type="submit" class="btn btn-default">Kirim</button>
                           </div>
                       </div>  
 
